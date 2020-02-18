@@ -5,6 +5,6 @@ import Hide from "../Hide";
 
 import type { Props } from "./index";
 
-const Desktop = ({ children }: Props) => <Hide on={["desktop", "largeDesktop"]}>{children}</Hide>;
+const Mobile = ({ children }: Props) => <Hide on={["desktop", "largeDesktop"]}>{children}</Hide>;
 
-export default Desktop;
+export default Mobile;
